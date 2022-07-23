@@ -10,6 +10,7 @@ from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 
 caps = {}
+app='${EXECDIR}/apks/app-curso.apk'
 caps["platformName"] = "Android"
 caps["appium:deviceName"] = "emulator-5554"
 caps["appium:appPackage"] = "com.example.cursoappium"

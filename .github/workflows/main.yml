@@ -41,4 +41,4 @@ jobs:
           arch: x86_64
           profile: Nexus 6
           script: 
-            python3 ./appSchoolMobile.py # Executando nossos testes
+            python3 tests/appSchoolMobile.py # Executando nossos testes
