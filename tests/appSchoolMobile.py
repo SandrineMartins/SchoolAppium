@@ -10,11 +10,11 @@ from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 
 caps = {}
-app='/Users/runner/work/SchoolAppium/apk/app-curso-appium.apk'
+#app='/Users/runner/work/SchoolAppium/apk/app-curso-appium.apk'
 caps["platformName"] = "Android"
 caps["appium:deviceName"] = "emulator-5554"
 caps["appium:appPackage"] = "com.example.cursoappium"
-caps["appium:app"] = "C:/Users/svm/Downloads/app-curso-appium.apk"
+caps["appium:app"] = '/Users/runner/work/SchoolAppium/apk/app-curso-appium.apk'
 caps["appium:ensureWebviewsHavePages"] = True
 caps["appium:nativeWebScreenshot"] = True
 caps["appium:newCommandTimeout"] = 3600
